@@ -2,6 +2,10 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=java,kotlin,gradle
 
 ### Java ###
+
+# Environnement
+.env
+
 # Compiled class file
 *.class
 
