@@ -24,7 +24,6 @@ public class CustomerController {
 
     @GetMapping("/{id}")
     public CustomerDTO getCustomer(@PathVariable UUID id) {
-        System.out.println("WHESSSSH");
         return customerService.getCustomerById(id);
     }
 
